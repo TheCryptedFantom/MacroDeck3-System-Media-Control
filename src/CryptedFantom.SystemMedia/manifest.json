@@ -1,0 +1,25 @@
+{
+  "$schema": "https://schemas.macro-deck.app/plugin-manifest-v1.schema.json",
+  "manifestVersion": 1,
+  "id": "com.cryptedfantom.system-media-control",
+  "name": "System Media Control",
+  "version": "1.0.0",
+  "description": "Control whatever's currently playing on your PC - Spotify, Foobar2000, your browser, and any other app that reports to Windows media controls - from a single Music Player widget, without needing a separate integration per app.",
+  "icon": "Assets/icon.svg",
+  "entrypoints": {
+    "win-x64": {
+      "executable": "runtimes/win-x64/CryptedFantom.SystemMedia.dll",
+      "runtime": {
+        "kind": "FrameworkDependent",
+        "dotnetVersion": "10.0"
+      }
+    }
+  },
+  "publisher": {
+    "name": "Trenton Roach"
+  },
+  "license": "All Rights Reserved",
+  "compatibility": {
+    "macroDeck": ">=3.0.0-0"
+  }
+}
