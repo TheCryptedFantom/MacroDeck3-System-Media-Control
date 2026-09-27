@@ -57,9 +57,10 @@ macrodeck-plugin run --project src\CryptedFantom.SystemMedia --stub-host
 All Rights Reserved — see [LICENSE](LICENSE). This source is provided for viewing as part of the Macro
 Deck plugin publication process; it is not licensed for redistribution or modification.
 
-## Author.
-### Contact Info:
+## Author
+
   Email: lifeforgames09@gmail.com
+
   Discord: cryptedfantom
 
 [Trenton Roach](https://github.com/TheCryptedFantom) ([@cryptedfantom](https://youtube.com/@cryptedfantom))
