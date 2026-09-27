@@ -19,6 +19,7 @@
     "name": "Trenton Roach"
   },
   "license": "All Rights Reserved",
+  "repository": "https://github.com/TheCryptedFantom/MacroDeck3-System-Media-Control",
   "compatibility": {
     "macroDeck": ">=3.0.0-0"
   }
