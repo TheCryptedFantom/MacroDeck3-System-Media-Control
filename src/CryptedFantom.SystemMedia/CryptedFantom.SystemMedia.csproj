@@ -19,11 +19,11 @@
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="MacroDeck.Plugin.Analyzers" Version="3.0.0-*" PrivateAssets="all" />
-        <PackageReference Include="MacroDeck.Localization" Version="3.0.0-*" />
-        <PackageReference Include="MacroDeck.Plugin.Hosting" Version="3.0.0-*" />
-        <PackageReference Include="MacroDeck.Plugin.Serilog" Version="3.0.0-*" />
-        <PackageReference Include="MacroDeck.Sdk" Version="3.0.0-*" />
+        <PackageReference Include="MacroDeck.Plugin.Analyzers" Version="3.0.0-beta.17*" PrivateAssets="all" />
+        <PackageReference Include="MacroDeck.Localization" Version="3.0.0-beta.17*" />
+        <PackageReference Include="MacroDeck.Plugin.Hosting" Version="3.0.0-beta.17*" />
+        <PackageReference Include="MacroDeck.Plugin.Serilog" Version="3.0.0-beta.17*" />
+        <PackageReference Include="MacroDeck.Sdk" Version="3.0.0-beta.17*" />
     </ItemGroup>
 
     <!-- The SDK reads the manifest from the content root at startup and resolves the icon path against
