@@ -19,16 +19,11 @@
     </ItemGroup>
 
     <ItemGroup>
-        <!-- Build-time only: compile-time diagnostics for plugin authors, the [MacroDeckSdkUsage]
-             attribute the host reads to report real deprecation usage, and the source generator that
-             turns Localization/*.resx into the typed Strings class. Never shipped in the output. -->
-        <PackageReference Include="MacroDeck.Plugin.Analyzers" PrivateAssets="all" />
-        <!-- Referenced directly rather than relied on transitively through the SDK: LocalizedText and
-             the generated Strings class are part of this project's own source. -->
-        <PackageReference Include="MacroDeck.Localization" />
-        <PackageReference Include="MacroDeck.Plugin.Hosting" />
-        <PackageReference Include="MacroDeck.Plugin.Serilog" />
-        <PackageReference Include="MacroDeck.Sdk" />
+        <PackageReference Include="MacroDeck.Plugin.Analyzers" Version="3.0.0-*" PrivateAssets="all" />
+        <PackageReference Include="MacroDeck.Localization" Version="3.0.0-*" />
+        <PackageReference Include="MacroDeck.Plugin.Hosting" Version="3.0.0-*" />
+        <PackageReference Include="MacroDeck.Plugin.Serilog" Version="3.0.0-*" />
+        <PackageReference Include="MacroDeck.Sdk" Version="3.0.0-*" />
     </ItemGroup>
 
     <!-- The SDK reads the manifest from the content root at startup and resolves the icon path against
